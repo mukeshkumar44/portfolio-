@@ -4,9 +4,9 @@ const Offered_body = () => {
   return (
     <div>
         <div>
-            <div className=' text-center pt-12'>
-                <p className='font-bold text-6xl text-blue-400'>We offered best services</p>
-                <p className='text-xl pt-4'>The Best Service</p>
+            <div className=' text-center md:pt-12 pt-14'>
+                <p className='font-bold text-6xl text-blue-800'>We offered best services</p>
+                <p className='text-xl pt-4 text-slate-500'>The Best Service</p>
             </div>
             <div className='md:flex pt-12 justify-between px-12'>
             <div>

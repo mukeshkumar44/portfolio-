@@ -4,8 +4,8 @@ const Top_body = (props) => {
   return (
     <div className=''>
         <div className='text-center mt-16'>
-            <p className='font-bold text-6xl text-blue-300'>Top Hotel & Restorants</p>
-            <p className='pt-6'>The Best Hotel & Restorants in Indonesia</p>
+            <p className='font-bold text-6xl text-blue-900'>Top Hotel & Restorants</p>
+            <p className='pt-6 text-slate-500'>The Best Hotel & Restorants in Indonesia</p>
         </div>
         <div  className='flex flex-row justify-between px-10 mt-16'>
         <div>
@@ -26,7 +26,7 @@ const Top_body = (props) => {
                             <p className=' mt-2 text-md text-gray-700'>{item.text2}</p>
                             </div>
                             <div>
-                            <p className=' mt-2 text-sm text-gray-500'>{item.text3}</p>
+                            <p className=' mt-2 text-sm text-orange-500'>{item.text3}</p>
                             </div>
                         </div>
                     )
@@ -52,7 +52,7 @@ const Top_body = (props) => {
                             <p className=' mt-2 text-md text-gray-700'>{item.text2}</p>
                             </div>
                             <div>
-                            <p className=' mt-2 text-sm text-gray-500'>{item.text3}</p>
+                            <p className=' mt-2 text-sm text-orange-500'>{item.text3}</p>
                             </div>
                         </div>
                     )
@@ -64,7 +64,7 @@ const Top_body = (props) => {
                 props.data3.map((item, index) => {
                     return(
                         <div >
-                            <div className=' items-center mr-4'>
+                            <div className=' items-center mr-4 '>
                             <img src={item.img} alt="" className='w-full h-auto rounded'/>
                             </div>
                             <div>
@@ -77,7 +77,7 @@ const Top_body = (props) => {
                             <p className=' mt-2 text-md text-gray-700'>{item.text2}</p>
                             </div>
                             <div>
-                            <p className=' mt-2 text-sm text-gray-500'>{item.text3}</p>
+                            <p className=' mt-2 text-sm text-orange-500'>{item.text3}</p>
                             </div>
                         </div>
                     )

@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+const Navbar = () => {
+  let arr1 = ["Home", "About", "Packages", "Places", "Contact"];
 
-const Navbar = (props) => {
   return (
     <div>
       <div className='md: flex  items-center h-28 justify-between px-6'>
@@ -9,17 +11,21 @@ const Navbar = (props) => {
 
         </div>
         <div className='align-center flex '>
-        {props.data.map((item)=>{
+        {arr1.map((item)=>{
           
           return (
-           <button className='md:flex hidden p-2 items-center text-slate-500'>{item}</button>
+           <Link to={`${item}`} className='md:flex hidden p-2 items-center text-slate-500'>{item}</Link>
           )
         })}
         </div>
         <div>
-          <button className='bg-orange-600 w-32 h-10 hover:bg-slate-800 hover:text-yellow-500 font-bold '>Book Now</button>
+          <button className='bg-orange-600 w-32 h-10 text-white hover:bg-slate-800 hover:text-yellow-500 font-bold hidden md:block '>Book Now</button>
         </div>
+        <div className='md:hidden'>
+        <a className='text-5xl' href="#">&#8801;</a>
       </div>
+      </div>
+     
       
     </div>
   )
