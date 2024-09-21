@@ -10,25 +10,25 @@ const Place = () => {
             </div>
             <div>
                 <div className='text-center pt-8'>
-                    <p className='text-4xl text-blue-950'>Places</p>
+                    <p className='text-4xl text-blue-800'>Places</p>
                     <p className='text-slate-500'>The Best Place to Stay in Indonesia</p>
                 </div>
                 <div >
-                    <div className='md:flex ml-[90px] pt-14'>
+                    <div className='md:flex md:ml-[90px] pt-14 w-[300px] md:w-auto mx-12'>
                         <img src="/image/img-box-02.png" alt="" className='' />
-                        <img src="/image/img-box-02 (1).png" alt="" className='ml-10' />
+                        <img src="/image/img-box-02 (1).png" alt="" className='md:ml-10 mt-10 md:-mt-0' />
                     </div>
-                    <div className='md:flex ml-[90px] pt-10'>
+                    <div className='md:flex md:ml-[90px] pt-10 w-[300px] md:w-auto mx-12'>
                         <img src="/image/img-box-02 (2).png" alt="" />
-                        <img src="/image/img-box-place.png" alt="" className='ml-10' />
+                        <img src="/image/img-box-place.png" alt="" className='md:ml-10 mt-10 md:-mt-0' />
                     </div>
-                    <div className='md:flex ml-[90px] pt-10'>
+                    <div className='md:flex md:ml-[90px] pt-10 w-[300px] md:w-auto mx-12'>
                         <img src="/image/img-box-02 (2).png" alt="" />
-                        <img src="/image/img-box-place.png" alt="" className='ml-10' />
+                        <img src="/image/img-box-place.png" alt="" className='md:ml-10 mt-10 md:-mt-0' />
                     </div>
-                    <div className='md:flex ml-[90px] pt-10'>
+                    <div className='md:flex md:ml-[90px] pt-10 w-[300px] md:w-auto mx-12'>
                         <img src="/image/img-box-02 (2).png" alt="" />
-                        <img src="/image/img-box-place.png" alt="" className='ml-10' />
+                        <img src="/image/img-box-place.png" alt="" className='md:ml-10 mt-10 md:-mt-0' />
                     </div>
                 </div>
             </div>

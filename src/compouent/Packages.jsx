@@ -7,7 +7,7 @@ const Packages = () => {
   return (
     <div>
         <div className='text-center pt-[120px]   bg-cover  h-72' style={{ backgroundImage: 'url(./image/mukesh.png)', height: "400px" }}>
-            <p className='font-bold text-8xl text-white '>Packages</p>
+            <p className='font-bold md:text-8xl text-7xl text-white '>Packages</p>
             <p className='mt-6 text-white'>TravelBuddy The best service travel</p>
         </div>
         <Top_body data1={arr3} data2={arr33} data3={arr333}/>
