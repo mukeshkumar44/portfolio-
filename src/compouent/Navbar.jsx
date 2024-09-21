@@ -38,7 +38,7 @@ const Navbar = () => {
 
       </div>
       {count && (
-        <div className='md:hidden flex flex-col items-center bg-gray-200'>
+        <div className=' absolute top-24 left-0 right-0 md:hidden flex flex-col items-center bg-gray-200'>
           {arr1.map((item) => (
             <Link
               key={item}to={`/${item}`}className='p-2 text-slate-500'onClick={btn} >{item}
